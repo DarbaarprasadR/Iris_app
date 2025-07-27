@@ -1,0 +1,59 @@
+/* Center everything */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: rgb(226, 249, 18);
+
+  /* Add background image using Flask static path */
+  background-image: url("/static/flowerBG.jpg");  /* Corrected relative path */
+  background-size: cover;   /* Cover the entire screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat */
+}
+
+
+/* Form styling */
+form {
+  background: rgb(7, 154, 120);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(232, 234, 89);
+}
+
+/* Input fields */
+input {
+  margin: 5px;
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #09c5c5c1;
+  border-radius: 5px;
+}
+
+/* Submit button */
+button {
+  background: #08c6d0e3;
+  color: rgba(228, 244, 14, 0.932);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0799af;
+}
+
+/* Prediction result */
+h3 {
+  margin-top: 20px;
+  color: #f2fa00e2;
+}
+
+/* Image styling */
+img {
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(240, 228, 4, 0.973);
+}
